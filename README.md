@@ -31,7 +31,6 @@ Este gráfico muestra los residuos a lo largo del tiempo. Idealmente, deberíamo
 
 ![image](https://github.com/user-attachments/assets/15e5daa1-540d-4605-b2ac-bec7a46d6802)
 
-![image](https://github.com/user-attachments/assets/5f2c69e1-6fb8-4dc8-be1d-51b83e3cfd9e)
 
 **Histograma de residuos:**
 
