@@ -23,24 +23,26 @@ mes
    * **ACF (Autocorrelación):** Muestra la correlación entre la serie y sus valores pasados (retrasos). Nos ayuda a identificar el orden de la componente MA (q).
    * **PACF (Autocorrelación parcial):** Muestra la correlación directa entre la serie y un valor pasado específico, sin considerar los valores intermedios.  Nos ayuda a identificar el orden de la componente AR (p).
 
-![image](https://github.com/user-attachments/assets/5f2c69e1-6fb8-4dc8-be1d-51b83e3cfd9e)
-
-![image](https://github.com/user-attachments/assets/f1c7d1bd-de1f-4904-8c06-14cbdd1efab4)
-
-![image](https://github.com/user-attachments/assets/15e5daa1-540d-4605-b2ac-bec7a46d6802)
-
+### Análisis de Residuos 
 
 **Gráfico de línea de residuos:**
 
 Este gráfico muestra los residuos a lo largo del tiempo. Idealmente, deberíamos ver un conjunto de puntos dispersos aleatoriamente alrededor de cero, sin patrones o tendencias claras. En este caso, los residuos parecen fluctuar alrededor de cero sin patrones significativos, excepto por algunos valores atípicos. Esto es una buena señal, ya que sugiere que el modelo está capturando la tendencia general y la estacionalidad de los datos.
 
+![image](https://github.com/user-attachments/assets/5f2c69e1-6fb8-4dc8-be1d-51b83e3cfd9e)
+
 **Histograma de residuos:**
 
 Este gráfico muestra la distribución de frecuencias de los residuos. Idealmente, debería parecerse a una curva de campana, lo que indica una distribución normal. Para este caso, el histograma muestra una distribución algo sesgada, con una cola más larga en el lado derecho. Esto indica que los residuos podrían no tener una distribución perfectamente normal.
 
+![image](https://github.com/user-attachments/assets/f1c7d1bd-de1f-4904-8c06-14cbdd1efab4)
+
 **Gráfico Q-Q de residuos:**
 
 Este gráfico compara los cuantiles de la distribución de residuos con los cuantiles de una distribución normal. Si los residuos tienen una distribución normal, los puntos deberían caer aproximadamente a lo largo de una línea recta. Los puntos se desvían de la línea recta, especialmente en las colas. Esto confirma que los residuos podrían no tener una distribución perfectamente normal.
+
+![image](https://github.com/user-attachments/assets/15e5daa1-540d-4605-b2ac-bec7a46d6802)
+
 
 **En general, el análisis de los residuos sugiere que el modelo SARIMA es un ajuste razonable para los datos, capturando los patrones principales en la serie temporal. Sin embargo, podría haber margen de mejora, ya que los residuos muestran algunas desviaciones de la normalidad.**
 
