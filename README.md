@@ -32,15 +32,15 @@ mes
 
 **Gráfico de línea de residuos:**
 
-Este gráfico muestra los residuos a lo largo del tiempo. Idealmente, deberíamos ver un conjunto de puntos dispersos aleatoriamente alrededor de cero, sin patrones o tendencias claras. En tu caso, los residuos parecen fluctuar alrededor de cero sin patrones significativos, excepto por algunos valores atípicos. Esto es una buena señal, ya que sugiere que el modelo está capturando la tendencia general y la estacionalidad de los datos.
+Este gráfico muestra los residuos a lo largo del tiempo. Idealmente, deberíamos ver un conjunto de puntos dispersos aleatoriamente alrededor de cero, sin patrones o tendencias claras. En este caso, los residuos parecen fluctuar alrededor de cero sin patrones significativos, excepto por algunos valores atípicos. Esto es una buena señal, ya que sugiere que el modelo está capturando la tendencia general y la estacionalidad de los datos.
 
 **Histograma de residuos:**
 
-Este gráfico muestra la distribución de frecuencias de los residuos. Idealmente, debería parecerse a una curva de campana, lo que indica una distribución normal. En tu caso, el histograma muestra una distribución algo sesgada, con una cola más larga en el lado derecho. Esto indica que los residuos podrían no tener una distribución perfectamente normal.
+Este gráfico muestra la distribución de frecuencias de los residuos. Idealmente, debería parecerse a una curva de campana, lo que indica una distribución normal. Para este caso, el histograma muestra una distribución algo sesgada, con una cola más larga en el lado derecho. Esto indica que los residuos podrían no tener una distribución perfectamente normal.
 
 **Gráfico Q-Q de residuos:**
 
-Este gráfico compara los cuantiles de la distribución de residuos con los cuantiles de una distribución normal. Si los residuos tienen una distribución normal, los puntos deberían caer aproximadamente a lo largo de una línea recta. En tu caso, los puntos se desvían de la línea recta, especialmente en las colas. Esto confirma que los residuos podrían no tener una distribución perfectamente normal.
+Este gráfico compara los cuantiles de la distribución de residuos con los cuantiles de una distribución normal. Si los residuos tienen una distribución normal, los puntos deberían caer aproximadamente a lo largo de una línea recta. Los puntos se desvían de la línea recta, especialmente en las colas. Esto confirma que los residuos podrían no tener una distribución perfectamente normal.
 
 **En general, el análisis de los residuos sugiere que el modelo SARIMA es un ajuste razonable para los datos, capturando los patrones principales en la serie temporal. Sin embargo, podría haber margen de mejora, ya que los residuos muestran algunas desviaciones de la normalidad.**
 
